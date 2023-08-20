@@ -2,7 +2,9 @@
 Automatically Generate Subtitles from [YouTube](https://youtube.com)
 
 This repository was started on a Sunday Night, to be specific on Sunday, August 20, 2023. Out of curiosity about OpenAI's Whisper Model which they open-source, a couple of months ago I know I'm kinda late to the party but in my defence, it was internship season. 
+
 My implementation is pretty basic using [Poetry](https://python-poetry.org/) for package management [OpenAI's Whisper](https://openai.com/blog/whisper) to generate subtitles or transcription for any youtube video and [PyTube](https://pytube.io/en/latest/) to install the YouTube vidoe that you want.
+
 There is a better implementation that I will write later this week when I have time that just straight up installs the video and that is it. (may be also add a bit of multi-threading and concurrency who knows, so we can do multiple jobs at once)
 
 ## Get things going
