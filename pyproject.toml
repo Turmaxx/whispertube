@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "transcriber"
+name = "whispertube"
 version = "0.1.0"
 description = ""
 authors = ["Turmaxx <88465473+Turmaxx@users.noreply.github.com>"]
 readme = "README.md"
+license = "The Unlicense"
 
 [tool.poetry.dependencies]
 python = "^3.10"
