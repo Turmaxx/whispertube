@@ -1,11 +1,13 @@
 # WhisperTube
 Automatically Generate Subtitles from [YouTube](https://youtube.com)
 
-This repository was started on a Sunday Night, to be specific on Sunday, August 20, 2023. Out of curiosity about OpenAI's Whisper Model which they open-source, a couple of months ago I know I'm kinda late to the party but in my defence, it was internship season. 
+This repository was started on a Sunday Night, to be specific on Sunday, August 20, 2023. Out of curiosity about OpenAI's Whisper Model which they open-sourced, a couple of months ago I know I'm kinda late to the party but in my defence, it was internship season. 
 
-My implementation is pretty basic using [Poetry](https://python-poetry.org/) for package management [OpenAI's Whisper](https://openai.com/blog/whisper) to generate subtitles or transcription for any youtube video and [PyTube](https://pytube.io/en/latest/) to install the YouTube vidoe that you want.
+My implementation is pretty basic using [Poetry](https://python-poetry.org/) for package management [OpenAI's Whisper](https://openai.com/blog/whisper) to generate subtitles or transcription for any youtube video and [PyTube](https://pytube.io/en/latest/) to install the YouTube vidoe that you want. There are python scripts currently, `main.py` just installs the video that you have specified onto your system on the vids folder, the other transcribes that videos and outs the transcriptions/subtiles to a VTT, CSV or a regular'ole text file. 
 
-There is a better implementation that I will write later this week when I have time that just straight up installs the video and that is it. (may be also add a bit of multi-threading and concurrency who knows, so we can do multiple jobs at once)
+There is a better implementation that I will write later this week or when I have time that just straight up installs the video and that is it. (may be also add a bit of multi-threading and concurrency who knows, so we can do multiple jobs at once. [Go](https://go.dev) was much better for this since it has built in concurrency on the language, so I'll so what I can do if I do a rewrite.)
+
+I have 2 vidoes on this repo to test out where it works also, check out the vidoes here, [COSTA RICA IN 4K 60fps HDR (ULTRA HD)](https://www.youtube.com/watch?v=LXb3EKWsInQ) and [THE ROBOTS ARE TAKING OVER](https://www.youtube.com/watch?v=bv-7vhJtm84). (this 2 vidoes are kinda of special to be since I want to visit costa rica and i love cycling from a young age.)
 
 ## Get things going
 You will have to have `nix` installed on your system, commands for that can be found on the [offical Nix website](https://nixos.org/download.html) for your desired host OS or even Docker.
