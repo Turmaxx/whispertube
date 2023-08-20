@@ -7,7 +7,7 @@ My implementation is pretty basic using [Poetry](https://python-poetry.org/) for
 
 There is a better implementation that I will write later this week or when I have time that just straight up installs the video and that is it. (may be also add a bit of multi-threading and concurrency who knows, so we can do multiple jobs at once. [Go](https://go.dev) was much better for this since it has built in concurrency on the language, so I'll so what I can do if I do a rewrite.)
 
-I have 2 vidoes on this repo to test out where it works also, check out the vidoes here, [COSTA RICA IN 4K 60fps HDR (ULTRA HD)](https://www.youtube.com/watch?v=LXb3EKWsInQ) and [THE ROBOTS ARE TAKING OVER](https://www.youtube.com/watch?v=bv-7vhJtm84). (this 2 vidoes are kinda of special to be since I want to visit costa rica and i love cycling from a young age.)
+I have 2 vidoes on this repo to test out where it works also, check out the vidoes here, [COSTA RICA IN 4K 60fps HDR (ULTRA HD)](https://www.youtube.com/watch?v=LXb3EKWsInQ) and [THE ROBOTS ARE TAKING OVER](https://www.youtube.com/watch?v=bv-7vhJtm84). (this 2 vidoes are kinda of special to me since I want to visit costa rica and i love cycling from a young age.)
 
 ## Get things going
 You will have to have `nix` installed on your system, commands for that can be found on the [offical Nix website](https://nixos.org/download.html) for your desired host OS or even Docker.
